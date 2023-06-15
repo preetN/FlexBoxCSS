@@ -163,3 +163,60 @@ article {
   color: bisque;
   text-align: center;
 }
+/* media query */
+
+/* Ipad 992px
+@media (max-width: 992px) {
+  .main {
+    flex-direction: column;
+  }
+  .main-content {
+    width: 100%;
+  }
+  .side-links {
+    display: flex;
+    width: 100%;
+  }
+  .country {
+    width: 50%;
+  }
+  .year {
+    width: 50%;
+  }
+} */
+
+/* Mobile 768px */
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+  .main-content {
+    width: 100%;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+  }
+  .side-links {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media (768px < width <992px) {
+  .main {
+    flex-direction: column;
+  }
+  .main-content {
+    width: 100%;
+  }
+  .side-links {
+    display: flex;
+    width: 100%;
+  }
+  .country {
+    width: 50%;
+  }
+  .year {
+    width: 50%;
+  }
+}
