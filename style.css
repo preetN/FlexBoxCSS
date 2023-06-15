@@ -94,6 +94,12 @@ article {
   margin: 20px;
   padding: 10px;
 }
+.side {
+  text-align: center;
+}
+.side li {
+  list-style-type: none;
+}
 .year {
   background: yellow;
 }
@@ -199,6 +205,9 @@ article {
   }
   .side-links {
     flex-direction: column;
+    width: 100%;
+  }
+  .art-img {
     width: 100%;
   }
 }
